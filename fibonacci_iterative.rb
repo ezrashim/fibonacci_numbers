@@ -2,7 +2,7 @@ require 'benchmark'
 
 def fibonacci(n)
   n = n.to_i
-  series = [0, 1, 1]
+  series = [0, 1]
   while series[n].nil?
     series.push(series[-1] + series[-2])
   end
