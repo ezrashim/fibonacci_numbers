@@ -2,13 +2,11 @@ require 'benchmark'
 
 def fibonacci(n)
   n = n.to_i
-  if n == 0
-    fibonacci = 0
-  elsif n <= 2
-    fibonacci = 1
-  else
-    fibonacci = fibonacci(n - 1) + fibonacci(n - 2)
+  series = [0, 1, 1]
+  while series[n].nil?
+    series.push(series[-1] + series[-2])
   end
+  series.last
 end
 
 puts "Please enter the nth number in the Fibonacci Series:"
