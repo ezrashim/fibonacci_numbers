@@ -2,7 +2,7 @@
 
 ##Iterative vs. Recursive Approach##
 
-Fibonacci Series is one of the more popular subjects in understanding recursion. However, in programming a fibonacci method, using recursive approach reveals many [limitations](http://stackoverflow.com/questions/18172257/efficient-calculation-of-fibonacci-series). Using `benchmark` method in ruby, we can measure the time that each code takes to run.
+Fibonacci Series is one of the more popular subjects in understanding the concept of recursion. However, in programming a fibonacci method, using recursive approach reveals many [limitations](http://stackoverflow.com/questions/18172257/efficient-calculation-of-fibonacci-series). Using `benchmark` in ruby, we can measure the time that each approach takes to run the fibonacci method.
 
 ## How to Run the Comparison Study
 
